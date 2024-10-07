@@ -1,0 +1,34 @@
+.mascot {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00; /* Warna wajah maskot */
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .eye {
+    width: 20px;
+    height: 20px;
+    background-color: white; /* Warna mata */
+    border-radius: 50%;
+    position: absolute;
+    top: 30%; /* Posisi vertikal mata */
+  }
+  
+  .eye:nth-child(1) {
+    left: 30%; /* Posisi horizontal mata kiri */
+  }
+  
+  .eye:nth-child(2) {
+    right: 30%; /* Posisi horizontal mata kanan */
+  }
+  

@@ -4,9 +4,7 @@ import FormResgist from "../components/FormRegist";
 const Regist = () => {
     return (
         <>
-        <h1>Registrasi</h1>
-        <FormResgist />
-
+            <FormResgist />
         </>
     );
 }

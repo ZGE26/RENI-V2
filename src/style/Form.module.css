@@ -1,0 +1,34 @@
+.link {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.displayForm {
+    padding: 2rem;
+    margin: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+    width: 30rem;
+    display: grid;
+    place-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ukuranFont  {
+    font-size: 15px;
+}
+
+.dispalyDiv {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+}
+
+.Judul {
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}

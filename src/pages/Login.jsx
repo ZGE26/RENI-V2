@@ -1,16 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import FormLogin from "../components/FormLogin";
+// import Mascot from "../components/Maskot";
+import "../style/Body.css";
 
 const Login = () => {
-    const navigate = useNavigate();
     return (
         <>
-        <h1>Login Reni</h1>
-        <FormLogin />
-
-        <button onClick={() => navigate('/regist')}>Registrasi</button>
-
+            <FormLogin />
         </>
     );
 }
